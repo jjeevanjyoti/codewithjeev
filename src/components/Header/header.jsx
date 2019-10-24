@@ -2,12 +2,12 @@
 import React from 'react';
 import './header.css';
 import { 
-    Button,
-    Navbar,
-    Nav,
-    NavDropdown,
-    Form,
-    FormControl
+  Button,
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl
 } from 'react-bootstrap';
 
 function Header() {
