@@ -1,0 +1,17 @@
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: #100f3a;
+    margin-right: 48px;
+    margin-top: -5px;
+}
+
+.logo span {
+    color: #8583e1;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem !important;
+    }
+}
