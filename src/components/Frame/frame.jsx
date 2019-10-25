@@ -3,7 +3,8 @@ import {
     Button,
     Card
   } from 'react-bootstrap';
-import profile from '../../images/profile.jpg'
+import profile from '../../images/profile.jpg';
+import './frame.css';
 function Frame (){
 return (
 <Card style={{ width: '18rem', background: '#100f3a', border: 'none' }}>
@@ -11,10 +12,11 @@ return (
   <Card.Body>
     <Card.Title className="general_info_title">General Information</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    <div className="general_info_text">Name: <span>Jeevanjyoti Jena</span></div>
+    <div className="general_info_text">Location: <span>Bangalore</span></div>
+    <div className="general_info_text">Email: <span>jjeevanjyoti@gmail.com</span></div>
+    <div className="general_info_text">Ph.No: <span>+918249396909</span></div>
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
 );

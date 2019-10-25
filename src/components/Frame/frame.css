@@ -1,6 +1,17 @@
 .general_info_title{
-    font-size: 30px;
+    text-align: left;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     line-height: 1.2;
+}
+
+.general_info_text {
+    font-size: 14px;
+    color: #7a798c;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.general_info_text span {
+    color: #FFFFFF;
 }

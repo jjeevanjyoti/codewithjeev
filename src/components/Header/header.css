@@ -9,9 +9,11 @@
 .logo span {
     color: #8583e1;
 }
-
+.bg-white {
+    box-shadow: 0 8px 6px -6px black;
+}
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 3.5rem !important;
+    padding-right: 1.5rem !important;
     }
 }

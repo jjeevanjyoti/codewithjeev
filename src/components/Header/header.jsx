@@ -12,8 +12,8 @@ import {
 
 function Header() {
   return (
-    <Navbar bg="white" expand="lg">
-    <Navbar.Brand href="#home" className="logo">Jeevanjyoti<span>.</span></Navbar.Brand>
+    <Navbar bg="white" expand="lg" fixed="top" >
+    <Navbar.Brand href="#home" className="logo">Jeevanjyoti<span>.</span>CV</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
