@@ -23,7 +23,7 @@ function Header() {
         <Nav.Link href="#Experience">Experience</Nav.Link>
         <Nav.Link href="#Education">Education</Nav.Link>
         <Nav.Link href="#Blogs">Blogs</Nav.Link>
-        <Nav.Link href="#My Tutorials">My Tutorials</Nav.Link>
+        <Nav.Link href="https://www.youtube.com/channel/UCBBIM64VES_mzLsXNSpgdLw">My Tutorials</Nav.Link>
         <Nav.Link href="#Contacts">Contacts</Nav.Link>
       </Nav>
     </Navbar.Collapse>
