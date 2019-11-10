@@ -17,8 +17,28 @@ function Skills() {
                 <Jumbotron fluid className="Desc_Jumbo">
                         <Container>
                         <h1 className="main_title">Skills</h1>
-                        
-
+                        <div className="container Top skills">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <p>Soft Skills</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                </div>
+                                <div className="col-sm-6">
+                                    <p>Programming Skills</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                    <p>1</p>
+                                </div>
+                            </div>
+                        </div>
                         </Container>
                     </Jumbotron>
                 </div>
