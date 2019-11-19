@@ -1,5 +1,7 @@
 import React from 'react'
 import Frame from '../Frame/frame';
+import './Experience.css'
+import Timeline from '../Timeline/Timeline';
 function Experience() {
     return (
         <div className="container-fluid">
@@ -8,9 +10,9 @@ function Experience() {
             <Frame />
             </div>
             <div className="col-sm-8 about_info">
-                
+                <Timeline />
             </div>
-        </div>
+            </div>
     </div>
     )
 }

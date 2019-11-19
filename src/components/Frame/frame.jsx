@@ -7,7 +7,7 @@ import profile from '../../images/profile.jpg';
 import './frame.css';
 function Frame (){
 return (
-<Card style={{ width: '18rem', background: '#100f3a', border: 'none' }}>
+<Card style={{ width: '18rem', background: '#100f3a', border: 'none',position:'fixed' }}>
   <Card.Img variant="top" src={profile} />
   <Card.Body>
     <Card.Title className="general_info_title">General Information</Card.Title>

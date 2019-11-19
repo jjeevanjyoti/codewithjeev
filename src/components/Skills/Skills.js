@@ -18,24 +18,24 @@ function Skills() {
                         <Container>
                         <h1 className="main_title">Skills</h1>
                         <div className="container Top skills">
-                            <div className="row">
+                            <div className="row row-inner">
                                 <div className="col-sm-6">
-                                    <p>Soft Skills</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
+                                    <p style={{fontSize:'large'}}><strong>Soft Skills</strong></p>
+                                    <p>Design Thinking</p>
+                                    <p>Problem Solving</p>
+                                    <p>Quick Learning</p>
+                                    <p>Team management</p>
+                                    <p>Adaptive</p>
+                                    <p>Enthusiast To Learn New Technologies</p>
                                 </div>
                                 <div className="col-sm-6">
-                                    <p>Programming Skills</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
-                                    <p>1</p>
+                                    <p style={{fontSize:'large'}}><strong>Programming Skills</strong></p>
+                                    <p>Angular</p>
+                                    <p>React.Js</p>
+                                    <p>Node.Js</p>
+                                    <p>MongoDb</p>
+                                    <p>Python</p>
+                                    <p>OOPs</p>
                                 </div>
                             </div>
                         </div>
