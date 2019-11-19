@@ -48,3 +48,7 @@
 .container-fluid{
     color: #fff;
 }
+
+.jumbotron{
+    padding: 0!important;
+}

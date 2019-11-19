@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Timeline.css'
+import {FaExternalLinkAlt} from "react-icons/fa";
 export default class Timeline extends Component {
     render() {
         return (
@@ -52,7 +53,7 @@ export default class Timeline extends Component {
                         <span class="month">June</span>
                         <span class="year">2018</span>
                     </span>
-                    <h2>Terralogic</h2>
+                    <h2 ><a href="https://www.terralogic.com/" target="_blank">Terralogic  &nbsp;<span><FaExternalLinkAlt/></span></a></h2>
                     <p> <strong> Description: </strong>It’s a new Website for Terralogic with advancement features and career ,events,blogs,social activities,industry standards,support and products and clients.</p>
                     </div>
                 </article>
@@ -72,7 +73,7 @@ export default class Timeline extends Component {
                         <span class="month">Aug</span>
                         <span class="year">2017</span>
                     </span>
-                    <h2>Yatragenie</h2>
+                    <h2> <a href="https://www.yatragenie.com/#/" target="_blank">Yatragenie &nbsp;<span><FaExternalLinkAlt/></span></a></h2>
                     <p><strong> Description: </strong>This is live bus booking website with advanced features UI design and user friendly with single page Apllication using Angular 5.This website is compete responsive both mobile and webview, Live bus booking  with payment gateways with ticket cancelation and offer section with proper filter and searching functionalities Each section like about,blogs,sitemap,career,contact etc.With user login,register,forgot password,session storage,local storage.</p>
                     </div>
                 </article>

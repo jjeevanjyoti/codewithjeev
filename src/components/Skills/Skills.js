@@ -20,7 +20,7 @@ function Skills() {
                         <div className="container Top skills">
                             <div className="row row-inner">
                                 <div className="col-sm-6">
-                                    <p style={{fontSize:'large'}}><strong>Soft Skills</strong></p>
+                                    <p style={{fontSize:'large'}} className="underline"><strong>Soft Skills</strong></p>
                                     <p>Design Thinking</p>
                                     <p>Problem Solving</p>
                                     <p>Quick Learning</p>
@@ -29,7 +29,7 @@ function Skills() {
                                     <p>Enthusiast To Learn New Technologies</p>
                                 </div>
                                 <div className="col-sm-6">
-                                    <p style={{fontSize:'large'}}><strong>Programming Skills</strong></p>
+                                    <p style={{fontSize:'large'}} className="underline"><strong>Programming Skills</strong></p>
                                     <p>Angular</p>
                                     <p>React.Js</p>
                                     <p>Node.Js</p>
